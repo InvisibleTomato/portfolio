@@ -1,0 +1,27 @@
+/* src/CustomCursor.css */
+.custom-cursor-wrapper {
+  position: fixed; /* 固定位置 */
+  pointer-events: none; /* ポインターイベントを無効化 */
+  transform: translate(-50%, -50%); /* 中心をマウスに合わせる */
+  z-index: -10; /* 高い z-index を設定して最前面に配置 */
+}
+
+.custom-cursor-inner {
+  position: absolute; /* 相対位置 */
+  width: 30px; /* 内側円の直径 */
+  height: 30px; /* 内側円の直径 */
+  background-color: #52c1ff; /* 内側円の色 */
+  border-radius: 50%; /* 円形にする */
+  transition: background-color 0.3s ease; /* スタイルのトランジション */
+  transform: translate(-50%, -50%); /* 中心に配置 */
+}
+
+.custom-cursor-outer {
+  position: absolute; /* 相対位置 */
+  width: 270px; /* 外側円の直径 */
+  height: 270px; /* 外側円の直径 */
+  background-color: black; /* 外側円の色 */
+  border-radius: 50%; /* 円形にする */
+  transform: translate(-50%, -50%); /* 中心に配置 */
+  z-index: -10; /* 内側円の後ろに配置 */
+}
