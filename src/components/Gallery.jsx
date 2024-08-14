@@ -4,7 +4,7 @@ import GalleryCard from "./GalleryCard";
 import CustomCursor from "./CustomCursor";
 const Gallery = () => {
   return (
-    <div>
+    <div className="Gallery">
       <CustomCursor />
       <div>Gallery</div>
       <GalleryCard />
