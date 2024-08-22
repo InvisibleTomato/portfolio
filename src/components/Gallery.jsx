@@ -5,7 +5,6 @@ import CustomCursor from "./CustomCursor";
 const Gallery = () => {
   return (
     <div className="Gallery">
-      <CustomCursor />
       <div className="gallery-card-wrapper">
         <GalleryCard />
         <GalleryCard />
