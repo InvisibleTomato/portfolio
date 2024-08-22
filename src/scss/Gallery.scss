@@ -1,3 +1,11 @@
 .Gallery {
   color: #000;
+
+  .gallery-card-wrapper {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
 }

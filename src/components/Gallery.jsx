@@ -6,8 +6,17 @@ const Gallery = () => {
   return (
     <div className="Gallery">
       <CustomCursor />
-      <div>Gallery</div>
-      <GalleryCard />
+      <div className="gallery-card-wrapper">
+        <GalleryCard />
+        <GalleryCard />
+        <GalleryCard />
+        <GalleryCard />
+        <GalleryCard />
+        <GalleryCard />
+        <GalleryCard />
+        <GalleryCard />
+        <GalleryCard />
+      </div>
     </div>
   );
 };
