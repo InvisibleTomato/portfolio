@@ -7,14 +7,6 @@ const Gallery = () => {
     <div className="Gallery">
       <div className="gallery-card-wrapper">
         <GalleryCard />
-        <GalleryCard />
-        <GalleryCard />
-        <GalleryCard />
-        <GalleryCard />
-        <GalleryCard />
-        <GalleryCard />
-        <GalleryCard />
-        <GalleryCard />
       </div>
     </div>
   );
