@@ -6,6 +6,16 @@ const CustomCursor = () => {
     const cursorWrapper = document.getElementById("cursor-wrapper");
     const cursorInner = document.querySelector(".custom-cursor-inner");
 
+    //タッチアクションを実装
+    const handleTouchMove = (e) => {
+      if (cursorWrapper) {
+        cursorWrapper.style.left = `${e.touches[0].clientX}px`;
+        cursorWrapper.style.top = `${e.touches[0].clientY}px`;
+      }
+    };
+
+    document.addEventListener("touchmove", handleTouchMove);
+
     // h2の要素を取得
     const typingText = document.querySelector(".typing");
 
@@ -58,6 +68,7 @@ const CustomCursor = () => {
     // クリーンアップ
     return () => {
       document.removeEventListener("mousemove", handleMouseMove);
+      document.removeEventListener("touchmove", handleTouchMove);
       if (typingText) {
         typingText.removeEventListener("mouseenter", handleH2MouseEnter);
         typingText.removeEventListener("mouseleave", handleH2MouseLeave);

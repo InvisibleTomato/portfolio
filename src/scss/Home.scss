@@ -33,20 +33,25 @@ a {
 //見出し
 h1 {
   text-align: center;
-  font-size: 2em;
+
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
   letter-spacing: 0.3em;
-  margin-top: 25%;
 
   @include mq(sp) {
     margin-top: 80%;
+    font-size: 1.5em;
   }
 
   @include mq(tab) {
     margin-top: 50%;
     font-size: 3em;
+  }
+
+  @include mq(pc) {
+    margin-top: 25%;
+    font-size: 2em;
   }
 }
 
@@ -98,25 +103,31 @@ h2 {
 //リンクの親div
 .home-link {
   margin-top: 8%;
-}
 
-//Galleryへのリンク
-.home-gallery {
-  font-family: "Roboto", sans-serif;
-  text-align: center;
+  .home-gallery {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    position: relative;
 
-  .home-gallery-link {
-    letter-spacing: 0.3em;
-    font-size: 1em;
-    margin: 0 2% 2% 2%;
+    .home-gallery-link {
+      letter-spacing: 0.3em;
+      font-size: 1em;
+      margin: 0 2% 2% 2%;
 
-    @include mq(sp) {
-      margin: 20% 2% 2% 2%;
-    }
+      @include mq(sp) {
+        margin: 20% 2% 2% 2%;
+        font-size: 1.3em;
+      }
 
-    @include mq(tab) {
-      margin: 13% 2% 2% 2%;
-      font-size: 2em;
+      @include mq(tab) {
+        margin: 13% 2% 2% 2%;
+        font-size: 2em;
+      }
+
+      @include mq(pc) {
+        font-size: 1.3em;
+        margin: 0 2% 2% 2%;
+      }
     }
   }
 }
