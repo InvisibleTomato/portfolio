@@ -24,5 +24,17 @@ $breakpoint: (
     @include mq(sp) {
       display: block;
     }
+
+    @include mq(tab) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* 2カラムに設定 */
+      gap: 20px; /* カード間の隙間 */
+    }
+
+    @include mq(pc) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 3カラムに設定 */
+      gap: 20px;
+    }
   }
 }
