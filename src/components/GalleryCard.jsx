@@ -11,7 +11,7 @@ import Card5 from "../images/card-img5.jpg";
 const cardData = [
   {
     imgSrc: GamingImg,
-    imgUrl: "hogehoge.jp",
+    imgUrl: "http://tokyo-d-plex.com/~23a_tangi/gaming-airways/",
     title: "GamingAirways",
     text1: "Branding",
     text2: "coding/design",
