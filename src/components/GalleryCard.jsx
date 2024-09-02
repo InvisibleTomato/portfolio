@@ -1,55 +1,52 @@
 import React from "react";
 import "../scss/GalleryCard.scss";
 import GamingImg from "../images/gaming-img.png";
-import Card1 from "../images/card-img1.jpg";
 import Card2 from "../images/card-img2.jpg";
-import Card3 from "../images/card-img3.jpg";
-import Card4 from "../images/card-img4.jpg";
-import Card5 from "../images/card-img5.jpg";
+import SyowaImg from "../images/syowa.jpg";
 
 // カードで使用するデータの配列
 const cardData = [
   {
     imgSrc: GamingImg,
-    imgUrl: "http://tokyo-d-plex.com/~23a_tangi/gaming-airways/",
+    imgUrl: "https://tomatoend23.github.io/GamingAirways/",
     title: "GamingAirways",
-    text1: "Branding",
-    text2: "coding/design",
+    text1: "Branding / Personal",
+    text2: "Coding / Design",
   },
   {
-    imgSrc: Card1,
-    imgUrl: "hogehoge1.jp",
-    title: "AdventureQuest",
-    text1: "Marketing",
-    text2: "strategy/design",
+    imgSrc: SyowaImg,
+    imgUrl: "https://tomatoend23.github.io/syowa/",
+    title: "Syowaチョコレート",
+    text1: "Branding / Personal",
+    text2: "Coding",
   },
   {
     imgSrc: Card2,
     imgUrl: "hogehoge2.jp",
     title: "AdventureQuest",
     text1: "Marketing",
-    text2: "strategy/design",
+    text2: "strategy / design",
   },
   {
-    imgSrc: Card3,
+    imgSrc: Card2,
     imgUrl: "hogehoge3.jp",
     title: "AdventureQuest",
     text1: "Marketing",
-    text2: "strategy/design",
+    text2: "strategy / design",
   },
   {
-    imgSrc: Card4,
+    imgSrc: Card2,
     imgUrl: "hogehoge4.jp",
     title: "AdventureQuest",
     text1: "Marketing",
-    text2: "strategy/design",
+    text2: "strategy / design",
   },
   {
-    imgSrc: Card5,
+    imgSrc: Card2,
     imgUrl: "hogehoge5.jp",
     title: "AdventureQuest",
     text1: "Marketing",
-    text2: "strategy/design",
+    text2: "strategy / design",
   },
   // 追加のカードデータ
 ];
