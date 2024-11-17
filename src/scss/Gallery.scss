@@ -18,7 +18,7 @@ $breakpoint: (
     width: 90%;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: 5% auto;
     flex-wrap: wrap;
 
     @include mq(sp) {
@@ -39,17 +39,17 @@ $breakpoint: (
   }
 
   .back {
-    margin: 2% 0;
+    margin: 10% 0;
     width: 100%;
 
     @include mq(sp) {
-      margin: 10% 0;
+      margin: 30% 0;
     }
 
     a {
       color: #000;
       display: block;
-      border: 2px solid #000;
+      border: 1px solid #000;
       width: 10%;
       padding: 1.5%;
       text-align: center;
