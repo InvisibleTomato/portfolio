@@ -3,51 +3,31 @@ import "../scss/GalleryCard.scss";
 import GamingImg from "../images/gaming-img.png";
 import Card2 from "../images/card-img2.jpg";
 import SyowaImg from "../images/syowa.jpg";
-
+import ColaImg from "../images/craft-cola.png";
 // カードで使用するデータの配列
 const cardData = [
   {
     imgSrc: GamingImg,
-    imgUrl: "https://tomatoend23.github.io/GamingAirways/",
+    imgUrl: "https://invisibletomato23.github.io/GamingAirways/",
     title: "GamingAirways",
     text1: "Branding / Personal",
-    text2: "Coding / Design",
+    text2: "Design / Coding",
   },
   {
     imgSrc: SyowaImg,
-    imgUrl: "https://tomatoend23.github.io/syowa/",
+    imgUrl: "https://invisibletomato23.github.io/syowa/",
     title: "Syowaチョコレート",
-    text1: "Branding / Personal",
+    text1: "Branding / Team",
     text2: "Coding",
   },
   {
-    imgSrc: Card2,
-    imgUrl: "hogehoge2.jp",
-    title: "AdventureQuest",
-    text1: "Marketing",
-    text2: "strategy / design",
+    imgSrc: ColaImg,
+    imgUrl: "https://invisibletomato23.github.io/tokyo-craft-cola/",
+    title: "TOKYOくらふとコーラ",
+    text1: "Branding / Personal",
+    text2: "Design / Coding",
   },
-  {
-    imgSrc: Card2,
-    imgUrl: "hogehoge3.jp",
-    title: "AdventureQuest",
-    text1: "Marketing",
-    text2: "strategy / design",
-  },
-  {
-    imgSrc: Card2,
-    imgUrl: "hogehoge4.jp",
-    title: "AdventureQuest",
-    text1: "Marketing",
-    text2: "strategy / design",
-  },
-  {
-    imgSrc: Card2,
-    imgUrl: "hogehoge5.jp",
-    title: "AdventureQuest",
-    text1: "Marketing",
-    text2: "strategy / design",
-  },
+
   // 追加のカードデータ
 ];
 

@@ -1,7 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "../scss/Home.scss";
-import CustomCursor from "./CustomCursor";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import '../scss/Home.scss';
+import CustomCursor from './CustomCursor';
 
 const Home = () => {
   return (
@@ -10,12 +10,12 @@ const Home = () => {
 
       <h1>Port Folio</h1>
 
-      <h2 className="typing">I want to be invisible.</h2>
+      <h2 className='typing'>I want to be invisible.</h2>
 
-      <div className="home-link">
+      <div className='home-link'>
         <ul>
-          <li className="home-gallery">
-            <Link to="/gallery" className="home-gallery-link">
+          <li className='home-gallery'>
+            <Link to='/gallery' className='home-gallery-link'>
               Gallery
             </Link>
           </li>
