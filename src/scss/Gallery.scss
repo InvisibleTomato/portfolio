@@ -13,7 +13,7 @@ $breakpoint: (
 
 .Gallery {
   color: #000;
-  height: 100vh;
+  height: auto;
   cursor: auto;
   padding: 3%;
   .gallery-card-wrapper {
@@ -45,7 +45,7 @@ $breakpoint: (
     width: 100%;
 
     @include mq(sp) {
-      margin: 30% 0;
+      margin: 30% auto 10% auto;
     }
 
     a {
