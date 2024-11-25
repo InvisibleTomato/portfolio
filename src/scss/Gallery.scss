@@ -13,12 +13,14 @@ $breakpoint: (
 
 .Gallery {
   color: #000;
+  height: 100vh;
   cursor: auto;
+  padding: 3%;
   .gallery-card-wrapper {
-    width: 90%;
+    width: 95%;
     display: flex;
     justify-content: space-between;
-    margin: 5% auto;
+    margin: 0 auto;
     flex-wrap: wrap;
 
     @include mq(sp) {
@@ -49,7 +51,7 @@ $breakpoint: (
     a {
       color: #000;
       display: block;
-      border: 1px solid #000;
+      border: none;
       width: 10%;
       padding: 1.5%;
       text-align: center;
@@ -65,7 +67,7 @@ $breakpoint: (
         color: #fff;
         background-color: #000;
         opacity: 0.9;
-        transition: 0.2s;
+        transition: 0.5s;
       }
     }
   }
