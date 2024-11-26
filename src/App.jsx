@@ -11,7 +11,7 @@ function App() {
       {" "}
       {/* Lenisでアプリ全体をラップ */}
       <div>
-        <Router>
+        <Router basename="/portfolio">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/gallery" element={<Gallery />} />
