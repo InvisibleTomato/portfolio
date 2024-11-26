@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ed64a734.css",
+    "main.css": "/portfolio/static/css/main.a2de4cf8.css",
     "main.js": "/portfolio/static/js/main.14d75fba.js",
     "static/media/card-img2.jpg": "/portfolio/static/media/card-img2.ddb78c20cacf5f5c90b5.jpg",
     "static/media/craft-cola.png": "/portfolio/static/media/craft-cola.d0d7c3517a6c0341bb69.png",
     "static/media/syowa.jpg": "/portfolio/static/media/syowa.92903e55d139548f8d19.jpg",
     "static/media/gaming-img.png": "/portfolio/static/media/gaming-img.66fd1d90c13ad02a3807.png",
     "index.html": "/portfolio/index.html",
-    "main.ed64a734.css.map": "/portfolio/static/css/main.ed64a734.css.map",
+    "main.a2de4cf8.css.map": "/portfolio/static/css/main.a2de4cf8.css.map",
     "main.14d75fba.js.map": "/portfolio/static/js/main.14d75fba.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed64a734.css",
+    "static/css/main.a2de4cf8.css",
     "static/js/main.14d75fba.js"
   ]
 }
