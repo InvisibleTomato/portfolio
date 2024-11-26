@@ -13,6 +13,11 @@ $breakpoint: (
 
 // ページ全体の設定
 
+// スクロール禁止用のクラス
+.no-scroll {
+  overflow: hidden; // スクロール禁止
+}
+
 li {
   list-style: none;
 }
