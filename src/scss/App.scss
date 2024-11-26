@@ -4,6 +4,12 @@ html.lenis body {
   height: auto;
 }
 
+html,
+body {
+  overflow: hidden; /* スクロールを無効化 */
+  touch-action: none; /* タッチジェスチャを無効化 */
+}
+
 .lenis.lenis-smooth {
   scroll-behavior: auto !important;
 }
